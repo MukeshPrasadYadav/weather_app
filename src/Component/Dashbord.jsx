@@ -135,7 +135,7 @@ function Dashbord() {
           <button type="submit" className="w-fit cursor-pointer  bg-green-500 p-2">Search</button>
         </form>
 
-        <button className="bg-blue-500 p-2 rounded-md cursor-pointer shadow-md" onClick={currentLocation}>
+        <button className="bg-green-500 p-2 rounded-md cursor-pointer shadow-md" onClick={currentLocation}>
           Current Location
         </button>
       </div>
