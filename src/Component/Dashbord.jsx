@@ -123,7 +123,7 @@ function Dashbord() {
 
       {/* Search & Current Location */}
       <div className="relative z-10 flex flex-col sm:flex-row w-full justify-around items-center gap-4 px-4">
-        <form id="inputForm" onSubmit={handleSubmit} className="flex w-full justify-between sm:w-auto bg-white/10 rounded-md overflow-hidden">
+        <form id="inputForm" onSubmit={handleSubmit} className="flex w-full justify-between gap-0 sm:w-auto bg-white/10 rounded-md overflow-hidden">
           <input
             className="w-4/5 text-center outline-none p-2 bg-white/10"
             type="text"
